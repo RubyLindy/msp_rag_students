@@ -1,0 +1,16 @@
+{
+  "session_id": "20260527_130254_79a816d3",
+  "started": "2026-05-27T13:02:54.379859",
+  "exchanges": [
+    {
+      "timestamp": "2026-05-27T13:05:02.140848",
+      "question": "parla di pesce",
+      "answer": "Il pesce è un tema fondamentale nel contesto della gestione delle risorse marittime. La pesca professionale e la pesca ricreativa sono due settori che richiedono una gestione sostenibile per garantire la loro sopravvivenza.\n\nLa pesca professionale è un settore che soffre di problemi strutturali, come l'invecchiamento della flotta peschereccia e degli operatori, la mancanza di rinnovo con operatori più giovani, il limitato aggiornamento professionale. Ciò può portare a una progressiva perdita di posti di lavoro.\n\nTuttavia, si prevede una forte spinta al settore artigianale, grazie al supporto economico e alla rafforzata attività di coordinamento delle associazazioni di categoria e del Distretto di Pesca del Nord Adriatico. Ciò può aiutare a migliorare la sostenibilità economica del settore.\n\nLa pesca ricreativa è fortemente regolamentata e consentita solo in determinate aree, al fine della minimizzazione degli impatti sull'ambiente e la riduzione dei conflitti con la pesca professionale. Ciò significa che i turisti esperienziali (pescaturismo e ittiturismo) possono contribuire a promuovere il settore in modo sostenibile.\n\nInoltre, si prevede l'intensificazione dell'implementazione delle misure previste dal Piano di contenimento del granchio blu, che include la valorizzazione delle biomasse per consumo umano e usi alternativi. Ciò può aiutare a ridurre lo scarto ittico e a promuovere una gestione sostenibile delle risorse marittime.\n\nIn sintesi, il pesce è un tema fondamentale nel contesto della gestione delle risorse marittime, e richiede una gestione sostenibile per garantire la sua sopravvivenza. La pesca professionale e la pesca ricreativa devono essere gestite in modo da minimizzare gli impatti sull'ambiente e promuovere la sostenibilità economica del settore.",
+      "sources": [
+        "nas_blue development_pesca.md",
+        "nas_blue development_acquacoltura.md",
+        "nas_slow pace_pesca.md"
+      ]
+    }
+  ]
+}

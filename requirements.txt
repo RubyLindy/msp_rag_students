@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+unstructured
+flask
+json
+uuid
+datetime
+os
+jinja2
+openpyxl

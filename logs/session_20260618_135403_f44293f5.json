@@ -1,0 +1,21 @@
+{
+  "session_id": "20260618_135403_f44293f5",
+  "started": "2026-06-18T13:54:03.595176",
+  "exchanges": [
+    {
+      "timestamp": "2026-06-18T13:55:32.455309",
+      "question": "che e pesca",
+      "answer": "La pesca è un'attività che consiste nell'attrappare e catturare pesci e altri molluschi per scopri del cibo. Il settore della pesca comprende sia la pesca professionale, che prevede l'utilizzo di attrezzi specializzati e la gestione di una flotta peschereccia, che la pesca artigianale, che si svolge con metodi più tradizionali e spesso in maniera più sostenibile.\n\nNel contesto del problema, la pesca è un settore che continua a soffrire di problemi strutturali, come l'invecchiamento della flotta peschereccia e degli operatori, la mancanza di rinnovo con operatori più giovani e il limitato aggiornamento professionale. Tuttavia, ci sono anche opportunità per migliorare la sostenibilità del settore, come la promozione di sinergie con il turismo esperienziale (pescaturismo e ittiturismo) e l'intensificazione dell'implementazione delle misure previste dal Piano di contenimento del granchio blu.",
+      "sources": [
+        {
+          "file": "nas_blue development_pesca.md",
+          "distance": 1.1217
+        },
+        {
+          "file": "nas_slow pace_pesca.md",
+          "distance": 1.1444
+        }
+      ]
+    }
+  ]
+}
