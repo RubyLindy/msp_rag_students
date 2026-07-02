@@ -6,7 +6,7 @@ import uuid
 from datetime import datetime
 
 # Create a logs folder if it doesn't exist
-LOGS_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "logs")
+LOGS_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
 os.makedirs(LOGS_FOLDER, exist_ok=True)
 
 # Generate a unique file per session when the server starts
@@ -17,13 +17,13 @@ SESSION_LOG = os.path.join(LOGS_FOLDER, f"session_{SESSION_ID}.json")
 with open(SESSION_LOG, "w", encoding="utf-8") as f:
     json.dump({"session_id": SESSION_ID, "started": datetime.now().isoformat(), "exchanges": []}, f, indent=2)
 
-app = Flask(__name__, static_folder="static")
+app = Flask(__name__, static_folder="app/static")
 
-DATA_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "NAS")
+DATA_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "NAS")
 
 @app.route("/")
 def index():
-    return send_from_directory("static", "chat-interface-rag.html")
+    return send_from_directory("app/static", "chat-interface-rag.html")
 
 
 @app.route("/chat", methods=["POST"])
