@@ -21,7 +21,10 @@ def generate(prompt):
     if LLM_API_KEY:
         headers["Authorization"] = f"Bearer {LLM_API_KEY}"
 
-    if "localhost" in LLM_BASE_URL or "127.0.0.1" in LLM_BASE_URL:
+    is_local = "localhost" in LLM_BASE_URL or "127.0.0.1" in LLM_BASE_URL
+    is_ollama_cloud = "ollama.com" in LLM_BASE_URL
+
+    if is_local or is_ollama_cloud:
         r = requests.post(
             f"{LLM_BASE_URL}/generate",
             headers=headers,
